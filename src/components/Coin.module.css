@@ -1,0 +1,20 @@
+.container {
+     background-color: #f5f5f5;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+     border: 1px solid #ccc;
+     margin: 1rem;
+}
+
+@media (max-width: 576px) {
+     .container {
+          flex-direction: column;
+     }
+
+     span {
+          margin-top: .5rem;
+     }
+}
